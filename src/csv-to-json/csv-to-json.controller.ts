@@ -13,7 +13,7 @@ export class CsvToJsonController {
             const result = this.csvToJsonService.convertFile();
             res.status(200).json(result);
         } catch (error) {
-            res.status(500).send('asdasdasd');
+            res.status(500).send(error);
         }
     }
 }
