@@ -58,6 +58,16 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## How to Excecute
+```bash
+# STEP
+# 1. prepare csv file
+# 2. change file name and place to 'src/csv-to-json/csvFile.csv'
+# 3. Trigger an API call using Postman (Curl is below)
+
+$ curl --location 'localhost:3000/csv-to-json/convert'
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
