@@ -9,6 +9,7 @@ export class CsvToJsonService {
       try {
         csvToJson
           .fieldDelimiter(',')
+          .formatValueByType()
           .generateJsonFileFromCsv(filePath, outputFilePath);
         console.log(`Conversion completed! JSON saved at: ${outputFilePath}`);
       } catch (error) {
