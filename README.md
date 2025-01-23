@@ -24,6 +24,8 @@
 
 ## Description
 
+Project สำหรับการแปลง csv file เป็น json
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
